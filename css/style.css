@@ -1,0 +1,74 @@
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body fieldset {
+  width: 40%;
+  height: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 3px solid orangered;
+  border-radius: 10px;
+}
+
+body fieldset .main {
+  height: 40%;
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  background: darkslategrey;
+  color: whitesmoke;
+  border: 3px solid black;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+body fieldset .main span {
+  margin: 5px;
+}
+
+body fieldset .btn {
+  border: 3px solid black;
+  outline: none;
+  margin: 15px auto;
+  width: 140px;
+  height: 40px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: whitesmoke;
+  background: darkslategrey;
+  border-radius: 10px;
+}
+
+body fieldset .btn:hover {
+  background: orangered;
+  color: black;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  font-size: 16px;
+}
+/*# sourceMappingURL=style.css.map */
