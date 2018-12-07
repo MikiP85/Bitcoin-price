@@ -71,4 +71,15 @@ body fieldset .btn:hover {
           transform: scale(1.1);
   font-size: 16px;
 }
+
+
+@media screen and (max-width:992px) {
+    body fieldset {
+        width: 70%;
+    }
+
+    body fieldset .main {
+        width: 100%;
+    }
+}
 /*# sourceMappingURL=style.css.map */
